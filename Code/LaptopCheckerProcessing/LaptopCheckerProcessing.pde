@@ -7,6 +7,6 @@ void setup(){
 }
 
 void draw(){
- String lines[] = loadStrings("/Users/jyounker/Dropbox/ArduinoOLA/Code/Laptops.txt");
+ String lines[] = loadStrings("/home/zafrik/Dropbox/Code/ArduinoOLA/ArduinoOLA/Code/Laptops.txt");
  myPort.write(lines[0]);
 }
